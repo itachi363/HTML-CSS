@@ -1,0 +1,44 @@
+header {
+    background-color: aqua;
+}
+main {
+    background-color: rgb(17, 0, 255);
+}
+footer {
+    background-color: rgb(255, 0, 242);
+}
+
+/* Layout */
+.container {
+    display: flex;
+}
+
+.center {
+    display: grid;
+    place-content: center;
+}
+
+.nav-flex {
+    display: flex;
+    list-style: none;
+}
+
+.nav-flex__item {
+    margin: 1rem;
+}
+
+.lin-grad__lt-to-drk{
+    background-image: linear-gradient(135deg, rgb(17, 0, 255) 60%, rgb(0, 0, 0));
+}
+
+.h-200 {
+    height: 200px;
+}
+
+.h-50 {
+    height: 50px;
+}
+
+.main-picture {
+    width: ;
+}
