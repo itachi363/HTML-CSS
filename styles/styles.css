@@ -6,6 +6,7 @@ main {
 }
 footer {
     background-color: rgb(255, 0, 242);
+    bottom: 0;
 }
 
 /* Layout */
@@ -18,9 +19,16 @@ footer {
     place-content: center;
 }
 
+.left {
+    place-content: left;
+}
+
+.right {
+    place-content: right;
+}
+
 .nav-flex {
     display: flex;
-    list-style: none;
 }
 
 .nav-flex__item {
@@ -31,14 +39,26 @@ footer {
     background-image: linear-gradient(135deg, rgb(17, 0, 255) 60%, rgb(0, 0, 0));
 }
 
-.h-200 {
-    height: 200px;
+.h-2500 {
+    height: 2500px;
 }
 
 .h-50 {
     height: 50px;
 }
 
+.h-200 {
+    height: 200px;
+}
+
 .main-picture {
     width: ;
+}
+.nav-flex-spacing {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-flex-margin {
+    margin-left: 50rem;
 }
