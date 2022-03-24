@@ -40,7 +40,7 @@ footer {
 }
 
 .h-2500 {
-    height: 2500px;
+    height: 2800px;
 }
 
 .h-50 {
@@ -54,6 +54,12 @@ footer {
 .main-picture {
     width: ;
 }
+
+.img-with-text {
+    text-align: justify;
+    width: [width of img];
+}
+
 .nav-flex-spacing {
     display: flex;
     justify-content: space-around;
@@ -62,3 +68,13 @@ footer {
 .nav-flex-margin {
     margin-left: 50rem;
 }
+
+.item{
+    width:300px;
+    text-align:center;
+    display:block;
+    background-color: transparent;
+    border: 1px solid transparent;
+    margin-bottom: 1px;
+    float:left;
+  }
