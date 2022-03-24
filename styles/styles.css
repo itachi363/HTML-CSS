@@ -132,3 +132,7 @@ footer {
     margin: 8px 0;
     box-sizing: border-box;
   }
+
+.margin-bottom {
+    margin-bottom: 180px;
+}
